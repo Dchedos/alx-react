@@ -1,6 +1,6 @@
 // Import jQuery and lodash
 import $ from 'jquery';
-import debounce from 'lodash/debounce';
+import _ from 'lodash';
 
 // Function to update the click counter
 let count = 0;
