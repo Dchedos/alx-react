@@ -7,10 +7,8 @@ let count = 0;
 function updateCounter() {
   count++;
   $('#count').text(`${count} clicks on the button`);
-}
+};
 
-// Add elements to the HTML
-$(document).ready(function() {
   // Add paragraphs and button elements
   $('body').append('<p>Holberton Dashboard</p>');
   $('body').append('<p>Dashboard data for the students</p>');
@@ -20,4 +18,3 @@ $(document).ready(function() {
 
   // Bind debounce function to click event
   $('#clickButton').on('click', debounce(updateCounter, 500));
-});
