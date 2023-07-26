@@ -5,3 +5,4 @@ export const getFooterCopy = (isIndex) => (isIndex ? "Holberton School" : "Holbe
 export const getLatestNotification = () => {
   return "<strong>Urgent requirement</strong> - complete by EOD";
 };
+
