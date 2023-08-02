@@ -32,7 +32,9 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "inline-source-map": "^0.6.2"
+    "inline-source-map": "^0.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "jest": {
     "setupFiles": [
