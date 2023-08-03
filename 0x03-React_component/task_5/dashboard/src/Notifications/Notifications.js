@@ -73,4 +73,3 @@ Notifications.defaultProps = {
 };
 
 export default Notifications;
-
