@@ -29,4 +29,3 @@ describe("WithLogging tests", () => {
     spy.mockRestore();
   });
 });
-
