@@ -19,4 +19,3 @@ BodySectionWithMarginBottom.propTypes = {
 };
 
 export default BodySectionWithMarginBottom;
-
