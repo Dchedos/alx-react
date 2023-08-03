@@ -129,4 +129,3 @@ describe("onclick event behaves as it should", () => {
     spy.mockRestore();
   });
 });
-
