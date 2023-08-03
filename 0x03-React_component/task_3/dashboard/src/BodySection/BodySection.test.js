@@ -17,4 +17,3 @@ describe("BodySection tests", () => {
     expect(wrapper.find("p").text()).toEqual("test children node");
   });
 });
-
